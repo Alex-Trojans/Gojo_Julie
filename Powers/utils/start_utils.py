@@ -39,45 +39,45 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "➕ Add me to a chat!",
+                    "✬ Add me to Your Chat ✬",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
                 (
-                    "Support 👥",
+                    "✬ Association ✬",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
             ],
             [
                 (
-                    "📚 Commands & Help", "commands"
+                    " ✬ Commands & Help ✬", "commands"
                 ),
                 (
-                    "👾 Bot info",
+                    " ✬ Julie Bot info ✬",
                     "bot_curr_info"
                 )
             ],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "✬ Bot Updates ✬",
+                    "https://t.me/Trojans_Updates",
                     "url",
                 ),
                 (
-                    "Owner ❤️",
+                    "๏ Developer ๏",
                     Config.OWNER_ID,
                     "user_id",
                 ),
             ],
             [
                 (
-                    "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "๏ Know Alex ๏",
+                    "https://t.me/About_Alexander",
                     "url",
                 ),
                 (
-                    "Powered by",
+                    "๏ Powered by ๏",
                     f"https://{Config.SUPPORT_CHANNEL}.t.me",
                     "url",
                 ),
