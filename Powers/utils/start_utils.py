@@ -275,8 +275,8 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
 Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Gojo✨.
 I'm here to help you manage your groups!
 Commands available:
-× /start: Start the bot
-× /help: Give's you this message."""
+➢ /start: Start the bot
+➢ /help: Give's you this message."""
         ou = await gen_cmds_kb(m)
         help_kb = ikb(ou, True)
 
