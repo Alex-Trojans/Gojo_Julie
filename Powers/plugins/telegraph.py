@@ -1,4 +1,3 @@
-from telegraph import upload_file
 from pyrogram import filters
 from gojo_satoru import app
 
