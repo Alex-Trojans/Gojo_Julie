@@ -640,14 +640,14 @@ NO       NO   NONONO            NONO
 ]
 
 StartPic = [
-    "https://te.legra.ph/file/98f45051aa26391dd9e67.jpg",
-    "https://te.legra.ph/file/674b41488884ae4def0cb.jpg",
-    "https://te.legra.ph/file/481d3286b4dffe97fd7b5.jpg",
-    "https://te.legra.ph/file/ffe9df5cfd9ec7d892dd6.jpg",
-    "https://te.legra.ph/file/e8d7fadf9d8729e272487.jpg",
-    "https://te.legra.ph/file/ae477d11bdab6c6307764.jpg",
-    "https://te.legra.ph/file/614b85854d28428019bc5.jpg",
-    "https://te.legra.ph/file/88b9e9cded8c5f449d7cc.jpg",
+    "https://te.legra.ph/file/82e4c0d943672ed50a017.jpg",
+    "https://te.legra.ph/file/023baf77ddee91d6feead.jpg",
+    "https://te.legra.ph/file/957c3508166072a16cc1c.jpg",
+    "https://te.legra.ph/file/43d01b7b216a8042aca25.jpg",
+    "https://te.legra.ph/file/d330fe145047f9ddf1c77.jpg",
+    "https://te.legra.ph/file/ae95e34ef9c499ccb7bb4.jpg",
+    "https://te.legra.ph/file/593132a199e1da2212b03.jpg",
+    "https://te.legra.ph/file/daad19738fae40473a94d.jpg",
     "https://te.legra.ph/file/080f3631e7885d593eb17.jpg",
     "https://te.legra.ph/file/39b720b36106a381fd42b.jpg",
     "https://te.legra.ph/file/e999d233a4a29a7ccc7fa.jpg",
