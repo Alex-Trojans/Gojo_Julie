@@ -39,7 +39,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "✬ Add me to Your Chat ✬",
+                    "✬ Add Me ✬",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
@@ -51,10 +51,10 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    " ✬ Commands & Help ✬", "commands"
+                    " ✬ Commands ✬", "commands"
                 ),
                 (
-                    " ✬ Julie Bot info ✬",
+                    " ✬ Julie info ✬",
                     "bot_curr_info"
                 )
             ],
