@@ -107,9 +107,9 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am Gojo ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+Hello [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am Julie ✨.
+I'm here to help you manage your group's !
+Hit /help to See My Available Aristocraticious & Awesome Usefull Commands!
 
 Join my [News Channel](https://t.me/Trojans_Updates) to get information on all the latest updates."""
 
@@ -146,9 +146,9 @@ Join my [News Channel](https://t.me/Trojans_Updates) to get information on all t
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am Gojo ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+Hello [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am Julie ✨.
+I'm here to help you manage your group's!
+Hit /help to See My Available Aristocraticious & Awesome Usefull Commands.!
 
 Join my [News Channel](https://t.me/Trojans_Updates) to get information on all the latest updates."""
 
@@ -168,10 +168,10 @@ async def commands_menu(_, q: CallbackQuery):
     keyboard = ikb(ou, True)
     try:
         cpt = f"""
-Hey **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am Gojo✨.
-I'm here to help you manage your group(s)!
+Hey **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am Julie✨.
+I'm here to help you manage your group's!
 Commands available:
-× /start: Start the bot
+× /start: Start the Julie
 × /help: Give's you this message.
 
 You can use `$` and `!` in placec of `/` as your prefix handler
@@ -241,17 +241,17 @@ async def help_menu(_, m: Message):
             ou = await gen_cmds_kb(m)
             keyboard = ikb(ou, True)
             msg = f"""
-Hey **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Gojo✨.
-I'm here to help you manage your group(s)!
+Hey **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Julie✨.
+I'm here to help you manage your group's!
 Commands available:
-× /start: Start the bot
+× /start: Start the Julie 
 × /help: Give's you this message."""
         else:
             keyboard = InlineKeyboardMarkup(
               [
                 [
                   InlineKeyboardButton(
-                    "Help", 
+                    "๏ Help ๏", 
                     url=f"t.me/{Config.BOT_USERNAME}?start=start_help",
                   ),
                 ],
@@ -275,11 +275,11 @@ async def give_curr_info(c: Gojo, q: CallbackQuery):
     delta_ping = time() - start
     await x.delete()
     txt = f"""
-🏓 Ping : {delta_ping * 1000:.3f} ms
-📈 Uptime : {up}
-🤖 Bot's version: {VERSION}
-🐍 Python's version: {PYTHON_VERSION}
-🔥 Pyrogram's version : {PYROGRAM_VERSION}
+➢ Ping : {delta_ping * 1000:.3f} ms
+➢ Uptime : {up}
+➢ Bot's version: {VERSION}
+➢ Python's version: {PYTHON_VERSION}
+➢ Pyrogram's version : {PYROGRAM_VERSION}
     """
     await q.answer(txt, show_alert=True)
     return
